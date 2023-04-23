@@ -1,0 +1,154 @@
+.caja_padre{
+    background-color: black;
+    margin: 30px;
+    height: auto;
+    display: flex;
+    border: 1px solid;
+    /* align-items: stretch; */
+  justify-content: space-around;
+}
+.caja_hijo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid;
+    margin: 5px;
+    width: auto;
+}
+nav ul{
+    list-style: none;
+
+}
+nav li a:hover{
+  color: aliceblue;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(6, 2, 255);
+}
+li {
+    display: flex;
+    overflow: hidden;
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+  }
+ .logo>img{
+    margin:10px 0;
+    width: 100%;
+    height: 100px;
+    
+ } 
+.menu{
+    margin-top: 35px;
+width: 40%;
+height: 50px;
+}
+
+
+
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.conte_izq{
+    /* background-color:  rgba(0, 0, 255, 0.5); */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 50.5%;
+    height: 100%;
+
+}
+.hijo{
+    background-color: blue;
+    margin: 10px;
+    width: 600px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hijitos>p{
+    display: flex;
+    flex-wrap: wrap;
+    margin:9px;
+    width: 150px;
+    height: 90px;}
+    .texto{
+        text-align: center;
+        color: aliceblue;
+    }
+.hijitos>img{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rebeccapurple;
+    margin:9px;
+    width: 150px;
+    height: 90px;
+}
+.nada{
+    background-color: rgb(255, 255, 255);
+}
+.conte_der{
+background-color: #EB0701;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    width: 45.5%;
+    height: 100%;
+
+}
+.contenedor_papa{
+    margin: 9px;
+    width: 550px;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.bebes>img{
+    display: flex;
+    align-items: center;
+    width: 270px;
+    height: 180px;
+     margin: 16px;
+}
+.jugos{
+    margin: 9px;
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 700px;
+
+}
+.text{
+text-align: justify;
+color: aliceblue;
+}
+footer{
+    margin: 20px;
+border: 1pxtb;
+background-color:rgb(6, 2, 255);
+}
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+align-items: center;
+}
+.texto_footer{
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    color: aliceblue;
+}
+.texto_footer:hover{
+    color: #EB0701;
+}
